@@ -1,0 +1,10 @@
+//SPDX-License-Identifier:MIT
+pragma solidity ^0.8.7;
+contract latest{
+    
+    struct people{                      //people is the customize data type
+        uint256 newVariable;
+        string myName;
+    }
+    people public values = people(23, "My Name is HImanshu Agarwal");
+}
